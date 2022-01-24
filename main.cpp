@@ -121,8 +121,8 @@ int main(){
             }
             else {
                 std::cout << "--------------------" << "\n";
-                std::cout << "Zbyt wiele niudanych" << "\n";
-                std::cout << "prób logowania" << "\n";
+                std::cerr << "Zbyt wiele niudanych" << "\n";
+                std::cerr << "prób logowania" << "\n";
                 std::cout << "Zamykanie..." << "\n";
                 return 0;
             }
